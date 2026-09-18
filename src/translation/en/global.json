@@ -1,0 +1,306 @@
+{
+  "navbar": [
+    "Home",
+    "Who are we ?",
+    "Our product",
+    "Our work",
+    "Our commitments",
+    "Our certifications",
+    "Contact us"
+  ],
+  "footer": {
+    "view": "Most visited",
+    "form": {
+      "title": "Contact us with a message.",
+      "placeholder": {
+        "name": "Your name",
+        "email": "Your email",
+        "subject": "Subject of your message",
+        "message": "Your message"
+      }
+    }
+  },
+  "more": "View more",
+  "detail" : "View details",
+  "home": {
+    "carousel": [
+      "A unique expertise and know-how to provide our clients with a product of impeccable quality.",
+      "We specialize in organic and Fair Trade certified vanilla."
+    ],
+    "citation": "Over time, we have acquired unique expertise and know-how to provide our clients with a product of impeccable quality.",
+    "section": {
+      "us": {
+        "title": "Who are we?",
+        "bg": "Us",
+        "content": "We are a sole proprietorship created in 2011. Since its inception, Promabio SARL has been dedicated to the preparation, packaging, and export of local products."
+      },
+      "product": {
+        "title": "Our products",
+        "bg": "Products",
+        "content": "The vanilla we offer is Vanilla Planifolia, which is the most widely available variety on the global market."
+      },
+      "work": {
+        "title": "Our expertise",
+        "bg": "Works",
+        "content": "Our own crops are not sufficient to ensure production in large quantities. That is why, during each campaign, we strive to be organized, available, and present at sales sites."
+      },
+      "commitment": {
+        "title": "Our commitments",
+        "bg": "Commitment",
+        "content": "We have successfully established the ideal infrastructure to optimize the processing of this exceptional product."
+      }
+    },
+    "articles" : {
+      "title" : "Our articles"
+    }
+  },
+  "us": {
+    "historical": [
+      {
+        "title": "Creation",
+        "content": "A sole proprietorship created in 2011 in the city of ANTALAHA, SAVA region, Promabio SARL has been dedicated to the preparation, packaging, and export of local products since its inception. However, our main activity focuses on prepared vanilla, the flagship product of our region."
+      },
+      {
+        "title": "Experience",
+        "content": "Family-owned business, we carry on the traditional local expertise in vanilla preparation from one generation to the next; this delicate spice is the result of a long and meticulous process that can only be mastered with patience, dedication, and precision."
+      }
+    ],
+    "team": [
+      {
+        "title": "Teamwork",
+        "content": "Promabio SARL is, above all, a well-balanced blend of the experience and wisdom of the elders and the energy and innovation of the younger generation. This business strategy is implemented at all levels of the company, from management to employees. Our policy is simple and concise."
+      },
+      {
+        "title": "We trust our elders",
+        "content": "They safeguard the secret of quality and the know-how of our vanilla, passing them down from generation to generation."
+      },
+      {
+        "title": "We give opportunities to the youth",
+        "content": "They bring a touch of modernity and a fresh perspective, allowing us to align with various market standards and requirements."
+      }
+    ],
+    "location": ["Location", "Address", "Phone"]
+  },
+  "product": {
+    "title" : "Vanilla pods",
+    "vanilleGourmet": {
+      "title": "Gourmet Vanilla",
+      "description": "This is the premium category of vanilla. With its moist, flexible, and plump pods, its exceptional aromatic bouquet makes it a favorite among top chefs in the food industry. Pastry chefs, ice cream makers, and restaurateurs are among the main clients of Madagascar's gourmet vanilla.",
+      "length": "14 to 20 cm",
+      "humidity": "Above 30%",
+      "to": "/product/red-0",
+     "vanillin": "Greater than 1.6",
+      "aspect": ["Unsplit pod"]
+    },
+    "vanilleRouge": {
+      "title": "Red Vanilla",
+      "description": "Red vanilla is also commonly known as 'extraction vanilla.' It is primarily used by the food and cosmetics industries for its fruity and chocolaty aroma."
+    },
+    "cardProd": [
+      {
+        "title": "Vanilla TK",
+        "length": "10 to 20 cm",
+        "description" : "Standard quality vanilla with split or open pods. Perfect for industrial or culinary applications requiring an excellent price-quality ratio while maintaining a natural and authentic aroma.",
+        "humidity": "xx",
+        "to": "/product/rouge-2",
+        "vanillin": "xx",
+        "aspect": ["split or unsplit pods", "bundled or loose"]
+      },
+      {
+        "title": "Red Vanilla Europe",
+        "length": "10 to 20 cm",
+        "description" : "Refined and balanced vanilla, tailored to European preferences. Sweet and floral notes, ideal for desserts and high-end preparations.",
+        "humidity": "> 20%",
+        "vanillin": "> 1.4%",
+        "to": "/product/rouge-0",
+        "aspect": ["split or unsplit pods"]
+      },
+      {
+        "title": "Red Vanilla US",
+        "length": "10 to 20 cm",
+        "description" : "Supple and fleshy vanilla, ideal for the American market. Perfect for pastries, infusions, and extracts due to its intense aromas and rich flavor.",
+        "humidity": "> 15%",
+        "to": "/product/rouge-1",
+        "vanillin": "> 1.4%",
+        "aspect": ["split or unsplit pods"]
+      }
+    ],
+    "cardOther": {
+      "title": "Other Products",
+      "product": [
+        {
+          "title": "Cuts",
+          "length": "10 to 20 cm",
+          "description" : "Economical and practical vanilla pod pieces, retaining all the aromatic intensity. Perfect for extractions, infusions, and professional uses.",
+          "humidity": "> 10%",
+          "to": "/product/other-2",
+          "vanillin": "> 1%",
+          "aspect": ["split or unsplit pods", "bundled or loose"]
+        },
+        {
+          "title": "Soft Vanilla",
+          "to": "#"
+        },
+        {
+          "title": "Vanilla Powder",
+          "description" : "Our vanilla powder is 100% pure; derived entirely from the drying, grinding, and sieving of vanilla pods. We do not use any artificial additives, ensuring a very high-quality powder with a delicate and unparalleled flavor. With an optimal drying rate and meticulous grinding, our powder can be directly incorporated into any preparation on a small or large scale.",
+          "to": "/product/other-0"
+        },
+        {
+          "title": "Vanilla Seeds",
+          "description" : "Vanilla seeds are mainly used to enhance flavor in preparations while adding a gourmet appearance. Our vanilla seeds are directly extracted from split pods throughout the manufacturing process. They are then cleaned, dried, and packaged.",
+          "to": "/product/other-1"
+        }
+      ]
+    },
+    "length" : "Length",
+    "humidity" : "Humidity",
+    "vanillin" : "Vanillin",
+    "certification": "Our Certifications"
+  },
+  "work": {
+    "intro": "To provide our clients with a competitive and high-quality product, we control every stage of production, from cultivation to export.",
+    "articles": [
+      {
+        "title": "Vanilla Cultivation",
+        "content": "For our certified vanillas, we work closely with growers' associations. Through training and follow-up on Good Production Practices, we ensure that our vanilla beans are of the highest quality."
+      },
+      {
+        "title": "Vanilla Collection",
+        "content": "Although we own our own vanilla plantations, we also source from the green vanilla market. To obtain a high-quality finished product, it is essential to make the best possible selection of raw materials. So, for each campaign, we deploy around thirty verifiers at all these “tsena” to check and validate the vanillas we buy according to well-established criteria."
+      },
+      {
+        "title": "Preparation",
+        "content": "Vanilla processing is a long and meticulous process. With our years of experience, we can confidently say that we have mastered this preparation. Armed with know-how, rigor, and patience, we have established our signature touch."
+      }
+    ],
+    "process": {
+      "title": "Some processes",
+      "data": [
+        {
+          "title": "Hand Pollination of Vanilla Flowers",
+          "content": "Vanilla flower pollination is done exclusively and carefully by hand. After this step, it takes about nine months before the fruit can be harvested."
+        },
+        {
+          "title": "Vanilla Harvesting",
+          "content": "When harvested, the pods are still green, hard, and without fragrance. It takes a long process of six to eight months to transform them into the sweet and aromatic spice we know."
+        }
+      ]
+    }
+  },
+  "commitment": {
+    "environment": {
+      "title": "RESPECT FOR THE ENVIRONMENT AND BIODIVERSITY PRESERVATION",
+      "collaboration": {
+        "title": "Close Collaboration Between PROMABIO and MNP",
+        "text": "By collaborating with MNP (Madagascar National Park), we commit to:",
+        "articles": [
+          "Respect for biodiversity and people. Protection of ecosystems and responsible sourcing.",
+          "Protection of Masoala National Park in the sourcing area. Restoration of <strong>15 hectares</strong> of forest with <strong>30,000 native</strong> tree seedlings."
+        ]
+      },
+      "work": {
+        "title": "Working in Harmony with People and Biodiversity in Our Sourcing Sites",
+        "text": "Our goal in this approach is to promote the restoration of natural habitats in the vanilla plots of the farmers we work with while strengthening their sources of income. For example, in the case of the Ambalabe commune:",
+        "card": [
+          {
+            "title": "Cultivation Plants",
+            "content": "<span class='textreb'>13200</span> income-generating plants</strong> have been distributed, mainly consisting of Clove, Coffee, and Cocoa."
+          },
+          {
+            "title": "Tree Plants",
+            "content": "<span class='textreb'>3610</span> fruit tree plants</strong> were distributed, including rambutans, lemons, oranges, and others."
+          },
+          {
+            "title": "Mangrove plants",
+            "content": "<span class='textreb'>500</span> mangrove plants</strong> were planted to support reforestation efforts in the coastal area of Ambinany Marambo."
+          },
+          {
+            "title": "Reforested land",
+            "content": "<span class='textreb'>15</span> hectares of land</strong> have been reforested with fast-growing plants to meet future wood supply needs."
+          },
+          {
+            "title": "Native species plants",
+            "content": "<span class='textreb'>3,410</span> native species</strong> plants were distributed to enrich vanilla plots and offset our CO2 emissions during all our activities."
+          }
+        ]
+      }
+    },
+    "education": {
+      "title": "PROMOTING EDUCATION",
+      "card": [
+        {
+          "title": "INCREASING SCHOOL ENROLLMENT RATE",
+          "content": "In Madagascar, the school enrollment rate is still extremely low, mainly due to a lack of infrastructure but also often due to financial constraints faced by parents. We are committed to supporting parents who are members of our producer associations. Our goal is to achieve an annual school enrollment rate of over 80% for children in our supply villages. In collaboration with one of our clients, 555 school kits have been distributed to children aged 6-14 from the families of our planter organizations"
+        }
+      ],
+      "woman": {
+        "title": "PROMOTING WOMEN'S INVOLVEMENT IN EMPLOYMENT",
+        "content": "In the most remote villages of Madagascar, particularly in the SAVA region, the role of women is still largely limited to household and domestic tasks. With the help of our clients, we have decided to launch a pilot project to support the creation of new income-generating activities. This project focuses on the production of rice, vegetables, and tubers, as well as introducing food processing and new cooking recipes."
+      }
+    },
+    "worker": {
+      "title": "ENSURING A DECENT LIVING STANDARD FOR MEMBERS OF OUR PRODUCER ASSOCIATIONS",
+      "card": [
+        "Ensuring access to drinking water",
+        "Healthcare for all",
+        "Job creation to increase sources of income"
+      ]
+    }
+  },
+  "certification": {
+    "title" : "Other certifications",
+    "data" : [
+      {
+        "img" : 0,
+        "link": "/certif/0",
+        "title": "Organic Farming",
+        "type": "Product Certification",
+        "description": "Resulting from enhanced traceability and control, this certification guarantees our customers a pesticide-free product."
+    },
+    {
+        "img" : 1,
+        "link": "/certif/1",
+        "title": "Sustainable Agriculture",
+        "type": "Product Certification",
+        "notif" : "Find out more at ra.org",
+        "description": "Based on a Social and Environmental Management Program, this certification guarantees production that respects both people and the environment."
+    },
+    {
+        "img" : 2,
+        "link": "/certif/2",
+        "title": "Fair Trade",
+        "type": "Product Certification",
+        "description": "Originating from groups, associations, or cooperatives of vanilla growers, this certification guarantees its members a minimum price and a premium to fund community development projects."
+    },
+    {
+        "img" : 3,
+        "link": "/certif/3",
+        "title": "FSSC 22000",
+        "type": "Organizational Certification",
+        "description": "Our organization is FSSC 22000 certified, a standard recognized by the GFSI. This certification includes requirements related to Food Fraud, Food Defense, and specific quality procedures, in order to meet the expectations of the agri-food market."
+    },
+    {
+      "img": 4,
+      "link": "/certif/4",
+      "title": "Ethical Agriculture",
+      "type": "Product Certifications",
+      "description": "Based on our Social and Environmental Management Program linked to our 'Sustainable Vanilla' production, this certification guarantees our clients an ethical supply."
+    },
+    {
+        "img" : 5,
+        "link": "/certif/5",
+        "title": "Kosher",
+        "type": "Organizational Certification",
+        "description": "Our production complies with the ritual prescriptions of Judaism."
+    },
+    {
+        "img" : 6,
+        "link": "/certif/6",
+        "title": "Sedex/Smeta",
+        "type": "Organizational Certification",
+        "description": "As a social audit, we ensure that our employees are treated in compliance with national and international social standards."
+    }
+  ]
+    }
+}

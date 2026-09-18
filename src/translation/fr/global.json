@@ -1,0 +1,303 @@
+{
+  "navbar": [
+    "Accueil",
+    "Qui sommes-Nous",
+    "Nos produits",
+    "Notre métier",
+    "Nos engagements",
+    "Nos certifications",
+    "Nous contactez"
+  ],
+  "footer": {
+    "view": "Les plus visités",
+    "form": {
+      "title": "Contactez-nous avec un message.",
+      "placeholder": {
+        "name": "Votre nom",
+        "email": "Votre email",
+        "subject": "Sujet de votre message",
+        "message": "Votre message"
+      }
+    }
+  },
+  "more": "Voir plus",
+  "detail" : "Voir les détails",
+  "home": {
+    "carousel": [
+      "Une maîtrise et un savoir faire unique pour fournir à nos clients un produit de qualité irréprochable.",
+      "Nous nous sommes spécialisés dans la vanille certifiée Bio et issue du Commerce Equitable."
+    ],
+    "citation": "Nous avons acquis au fil du temps une maîtrise et un savoir faire unique pour fournir à nos clients un produit de qualité irréprochable",
+    "section": {
+      "us": {
+        "title": "Qui sommes-nous ?",
+        "bg": "Nous",
+        "content": "Nous sommes une Société individuelle créée en 2011, Promabio SARL se consacre depuis sa création à la préparation, le conditionnement et l’exportation de produits locaux."
+      },
+      "product": {
+        "title": "Nos produits",
+        "bg": "Produits",
+        "content": "La vanille que nous proposons est la vanille planifolia, elle se trouve être la plus répandue sur le marché mondial."
+      },
+      "work": {
+        "title": "Nos métiers",
+        "bg": "Works",
+        "content": "Bien que propriétaires de nos propres plantations de vanille, nous nous approvisionnons également sur le marché de la vanille verte."
+      },
+      "commitment": {
+        "title": "Nos engagements",
+        "bg": "Engagement",
+        "content": "Nous avons su mettre en place les infrastructures idéales pour optimiser le travail de ce produit d’exception.."
+      }
+    },
+    "articles": {
+      "title": "Nos articles"
+    }
+  },
+  "us": {
+    "historical": [
+      {
+        "title": "Création",
+        "content": "Société individuelle créée en 2011 dans la ville d’ANTALAHA, région SAVA, Promabio SARL se consacre depuis sa création à la préparation, le conditionnement et l’exportation de produits locaux. Mais, notre activité principale se tourne vers la vanille préparée, produit phare de notre région."
+      },
+      {
+        "title": "Expérience",
+        "content": "Entreprise familiale, nous perpétuons de descendance en descendance, le traditionnel savoir-faire local, la préparation de la vanille ; cette épice, si délicate, fruit d’une longue et méticuleuse préparation qui ne s’acquiert qu’avec patience, dévouement et rigueur."
+      }
+    ],
+    "team": [
+      {
+        "title": "Travail en équipe",
+        "content": "Promabio SARL, c’est enfin et surtout un judicieux mélange entre expérience et sagesse des anciens et dynamisme et innovation de la jeunesse. Cette stratégie d’entreprise se décline à tous les niveaux de la société, de la structure dirigeante aux employés qui la compose."
+      },
+      {
+        "title": "Nous faisons confiance aux anciens",
+        "content": "ceux qui gardent le secret de la qualité ainsi que le savoir-faire de notre vanille, et qui les transmettent de génération en génération."
+      },
+      {
+        "title": "Nous donnons leur chance à la jeunesse ",
+        "content": "ceux qui viennent apporter une touche de modernité et de regard neuf afin que nous puissions nous aligner aux différentes normes et exigences du marché."
+      }
+    ],
+    "location": ["Localisation", "Adresse", "Telephone"]
+  },
+  "product": {
+    "title" : "Vanille en gousse",
+    "vanilleGourmet": {
+      "title": "Vanille gourmet",
+      "description": "C’est le haut de gamme de la vanille. Gousse humide, souple et charnue, son bouquet aromatique exceptionnel fait d’elle l’une des fidèles alliées des plus grands chefs du marché de bouche. En effet, pâtissiers, glaciers, restaurateurs, … constituent les plus gros clients de la vanille gourmet de Madagascar.",
+      "length": "14 à 20 cm",
+      "humidity": "Supérieure à 30%",
+      "to": "/product/rouge-0",
+      "vanillin": "Supérieure à 1,6",
+      "aspect": ["Gousse non fendue"]
+    },
+    "vanilleRouge": {
+      "title": "Vanille rouge",
+      "description": "La vanille rouge est aussi appelée communément « vanille d’extraction ». En effet, elle est principalement utilisée par les industriels de l’agroalimentaire et du cosmétique pour son arôme à la fois fruité et chocolaté."
+    },
+    "cardProd": [
+      {
+        "title": "Vanille Tk",
+        "description": "Vanille de qualité standard, aux gousses fendues ou ouvertes. Parfaite pour les applications industrielles ou culinaires nécessitant un excellent rapport qualité-prix, tout en conservant un arôme naturel et authentique.",
+        "length": "14 à 20 cm",
+        "humidity": "25 à 30%",
+        "to": "/product/rouge-0",
+        "vanillin": "Supérieure à 6",
+        "aspect": ["Gousse non fendue"]
+      },
+      {
+        "title": "Vanille rouge Europe ",
+        "description": "Vanille raffinée et équilibrée, adaptée aux préférences européennes. Notes sucrées et florales, idéale pour desserts et préparations haut de gamme.",
+        "length": "10 à 20 cm",
+        "humidity": "> 20%",
+        "vanillin": "> 1,4%",
+        "to": "/product/rouge-1",
+        "aspect": ["gousses fendues ou non fendues"]
+      },
+      {
+        "title": "Vanille rouge Us ",
+        "description": "Vanille souple et charnue, idéale pour le marché américain. Parfaite pour les pâtisseries, infusions et extraits grâce à ses arômes intenses et son goût riche.",
+        "length": "10 à 20 cm",
+        "humidity": "> 15%",
+        "to": "/product/rouge-2",
+        "vanillin": "> 1,4%",
+        "aspect": ["gousses fendues ou non fendues"]
+      }
+    ],
+    "cardOther": {
+      "title": "Autres produits",
+      "product": [
+        {
+          "title": "Cuts",
+          "description": "Morceaux de gousses économiques et pratiques, conservant toute l’intensité aromatique. Parfait pour extractions, infusions et usages professionnels.",
+          "longueur": "10 à 20 cm",
+          "humidite": "> 10%",
+          "to": "/product/other-0",
+          "vanilline": "> 1%",
+          "aspect": ["gousses fendues ou non fendues", "en bottes ou en vrac"]
+        },
+        {
+          "title": "Poudre de vanille",
+          "description": "Notre poudre de vanille est une poudre totalement pure ; issue à 100% du séchage, broyage et tamisage des gousses de vanilles. Nous n’utilisons aucun additif artificiel, ce qui nous permet d’avoir une poudre de très haute qualité avec une saveur délicate et sans égale. Respectant un taux de séchage optimal et un broyage méticuleux, notre poudre peut être directement incorporé dans toute préparation à petite ou grande échelle.",
+          "to": "/product/other-1"
+        },
+        {
+          "title": "Graine de vanille",
+          "description": "Les graines de vanilles sont surtout utilisées afin d’apporter davantage de saveur dans les préparations tout en donnant un aspect gourmand. Nos graines de vanilles sont récupérées directement à partir des gousses fendues tout au long du processus de fabrication. Elles sont ensuite nettoyées puis séchées avant d’être conditionnées.",
+          "to": "/product/other-2"
+        }
+      ]
+    },
+    "length" : "Longueur",
+    "humidity" : "Humidité",
+    "vanillin" : "Vanilline",
+    "certification": "Nos certifications"
+  },
+  "work": {
+    "intro": "Pour assurer à nos clients un produit compétitif et de qualité nous maitrisons toutes les étapes de la production, de la culture jusqu’à l’exportation.",
+    "articles": [
+      {
+        "title": "La culture vanille",
+        "content": "Pour nos vanilles certifiées, nous travaillons étroitement avec des associations de planteurs. A travers des formations et des suivis sur les Bonnes Pratiques de Production, nous nous assurons de produire des gousses de qualité supérieure."
+      },
+      {
+        "title": "Collect de vanille",
+        "content": "Bien que propriétaires de nos propres plantations de vanille, nous nous approvisionnons également sur le marché de la vanille verte. Pour avoir un produit fini de bonne qualité, il est primordial de faire la meilleure sélection de matière première. Ainsi, à chaque campagne, nous déployons une trentaine de vérificateurs au niveau de tous ces « tsena » afin de vérifier et de valider les vanilles que nous allons acheter selon des critères bien établis."
+      },
+      {
+        "title": "La préparation",
+        "content": "Le travail de la vanille est un procédé long et minutieux. Avec nos plusieurs années d’expérience, nous pouvons assurer que nous maîtrisons parfaitement cette préparation. En nous armant de savoir-faire, de rigueur et surtout de patience, nous avons su poser notre marque de fabrique."
+      }
+    ],
+    "process": {
+      "title": "Quelques processus",
+      "data": [
+        {
+          "title": "Fécondation fleurs de vanilliers",
+          "content": "La fécondation des fleurs de vanilliers se fait uniquement et minutieusement par les mains de l’homme. Après cette étape, il faudra compter environ 9 mois de gestation avant de pouvoir récolter les fruits."
+        },
+        {
+          "title": "Récolte vanille",
+          "content": "A la récolte, les gousses sont encore vertes, dures et sans parfum. Il faudra un long processus de 6 à 8 mois avant d’arriver à l’épice douce et aromatisée telle que nous la connaissons."
+        }
+      ]
+    }
+  },
+  "commitment": {
+    "environment": {
+      "title": "RESPECT DE L’ENVIRONNEMENT ET PRESERVATION DE LA BIODIVERSITE",
+      "collaboration": {
+        "title": "Collaboration étroite entre PROMABIO et MNP",
+        "text": "En collaborant avec MNP ou Madagascar National Park, nous nous engageons :",
+        "articles": [
+          "Respect de la biodiversité et des personnes.Protection des écosystèmes et approvisionnement responsable",
+          "Protection du Parc National Masoala présent dans la zone d’approvisionnement. Restauration de <strong>15 ha</strong> de forêt avec <strong>30 000 plants</strong> d’espèces autochtones"
+        ]
+      },
+      "work": {
+        "title": "Travail en harmonie avec l’Homme et la biodiversité dans nos sites d’approvisionnement",
+        "text": "Notre objectif dans cette démarche est de promouvoir la restauration de l'habitat naturel dans les parcelles de vanilles des producteurs qui travaillent avec nous tout en renforçant leurs sources de revenus. Comme dans le cas de la commune Ambalabe par exemple :",
+        "card": [
+          {
+            "title": "Plants de culture",
+            "content": "<span class='textreb'> 13200</span> plants de culture de rente ont été distribués, composés principalement de Girofle, de Café et de Cacao"
+          },
+          {
+            "title": "Plants d'arbre",
+            "content": "<span class='textreb'>3610</span> plants d'arbres</strong> fruitiers ont été distribués dont des ramboutans, des citrons, des oranges et autres. "
+          },
+          {
+            "title": "plants de mangrove",
+            "content": "<span class='textreb'>500</span> plants de mangrove ont été plantés pour appuyer les efforts de reboisement de la zone côtière d'Ambinany Marambo"
+          },
+          {
+            "title": "Terrain réboisé",
+            "content": "<span class='textreb'>15 ha</span> de terrain ont été reboisé en plants à croissance rapide destiné à répondre les besoins en bois dans le futur."
+          },
+          {
+            "title": "plants d'espèces autochtones",
+            "content": "<span class='textreb'>3410 </span> plants d'espèces autochtones ont été distribuées pour enrichir les parcelles de vanille et compenser nos émissions en CO2 durant toutes nos activités."
+          }
+        ]
+      }
+    },
+    "education": {
+      "title": "PROMOUVOIR L'EDUCATION",
+      "card": [
+        {
+          "title": "AUGMENTATION DU TAUX DE SCOLARISATION",
+          "content": "A Madagascar, le taux de scolarisation est encore extrêmement bas, dans la majeure partie des cas à défaut d’infrastructures mais le plus souvent aussi à défaut de moyens vis-à-vis des parents.Nous nous engageons ainsi à soutenir les parents membres de nos associations de producteurs. Notre but est d’avoir un taux de scolarisation annuel de plus de 80% pour les enfants dans nos villages d’approvisionnement.En collaboration avec un de nos clients, 555 kits scolaires ont donc été distribués pour les enfants de 6-14 ans des membres de nos organisations de planteurs"
+        }
+      ],
+      "woman": {
+        "title": "PROMOUVOIR L’IMPLICATION DES FEMMES A L’EMPLOI",
+        "content": "Dans les villages les plus reculés de Madagascar, notamment de la SAVA, le rôle de la femme se résume encore à s’occuper de son foyer et des tâches ménagères. Ainsi, avec l’aide de nos clients, nous avons donc décider de monter un projet pilote qui consiste à un appui à la création de nouvelles activités génératrices de revenus. Ce dernier est focalisé sur la production de riz, de légumes, de tubercules mais aussi une introduction à la transformation alimentaire et aux nouvelles recettes de cuisine."
+      }
+    },
+    "worker": {
+      "title": "ASSURER UN MODE DE VIE DESCENT AUX MEMBRES DE NOS ASSOCIATIONS DE PRODUCTEURS",
+      "card": [
+        "Assurer l'accès à l'eau potable",
+        "La santé pour tous",
+        "Création d’emploi pour augmenter les sources de revenus"
+      ]
+    }
+  },
+  "certification": {
+    "title": "Autre certifications",
+    "data": [
+      {
+        "img": 0,
+        "link": "/certif/0",
+        "title": "Agriculture Biologique",
+        "type": "Certification produits",
+        "description": "Issue d’une traçabilité et d’un contrôle accrue, cette certification garantie à nos clients un produit sans pesticides"
+      },
+      {
+        "img": 1,
+        "link": "/certif/1",
+        "title": "Agriculture Durable",
+        "type": "Certification produits",
+        "notif" : "Pour en savoir plus, rendez-vous sur ra.org",
+        "description": "Basée sur un Programme de Gestion Sociale et Environnementale, cette certification garantie un production respectueuse de l’Homme et de son Environnement"
+      },
+      {
+        "img": 2,
+        "link": "/certif/2",
+        "title": "Commerce Equitable",
+        "type": "Certification produits",
+        "description": "Provenant de Groupements, Associations ou Coopératives de planteurs de vanille, cette certification garantie à ses membres un prix minimum et une prime pour financer des actions de développement communautaire"
+      },
+      {
+        "img": 3,
+        "link": "/certif/3",
+        "title": "FSSC 22000",
+        "type": "Certification organisationnelles",
+        "description": "Notre organisation est certifiée FSSC 22000, un standard reconnu par la GFSI. Cette certification intègre des exigences en matière de Food Fraud, de Food Defense ainsi que des procédures qualité spécifiques, afin de répondre aux attentes du marché de l’agroalimentaire."
+      },
+      {
+        "img": 4,
+        "link": "/certif/4",
+        "title": "Agriculture Ethique",
+        "type": "Certifications Produits",
+        "description": "Basée sur notre Programme de Gestion Sociale et Environnementale en lien avec notre production de « Vanille Durable », cette certification garantie à nos clients un approvisionnement éthique."
+      },
+      {
+        "img": 5,
+        "link": "/certif/5",
+        "title": "Kasher",
+        "type": "Certification organisationnelles",
+        "description": "Notre production est conforme aux prescriptions rituelles du judaïsme."
+      },
+      {
+        "img": 6,
+        "link": "/certif/6",
+        "title": "Sedex/Smeta",
+        "type": "Certification organisationnelles",
+        "description": "Audit social, nous garantissons que nos employés sont traités dans le respect des normes sociales nationales et internationales"
+      }
+      
+    ]
+  }
+}
