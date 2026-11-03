@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import imgFooter from '../assets/images/carrousel/image-1.jpg'
 import { useTranslation } from 'react-i18next';
-import emailjs from "@emailjs/browser";
 import { Link } from 'react-router-dom';
+
+// Clé publique Web3Forms (définie dans le fichier .env : REACT_APP_WEB3FORMS_KEY)
+const WEB3FORMS_KEY = process.env.REACT_APP_WEB3FORMS_KEY;
 
 const Footer = () => {
   const { t } = useTranslation('global')
@@ -17,6 +19,7 @@ const Footer = () => {
   });
 
   const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
 
 
   const handleChange = (e) => {
@@ -33,33 +36,41 @@ const Footer = () => {
     }
   }, [status]);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (formData.name && formData.email && formData.subject && formData.message) {
-      emailjs
-        .send(
-          "service_80t7qa8", // Remplacez par votre service ID
-          "template_0wztfvs", // Remplacez par votre template ID
-          formData,
-          "gusxKu0TTyAI1rspl" // Remplacez par votre clé publique
-        )
-        .then(
-          (response) => {
-            setTimeout(() => {
-              setStatus("Message envoyé avec succès !");
-            }, 500);
-            setFormData({ name: "", email: "", message: "", subject: "" }); // Réinitialiser le formulaire
-          },
-          (error) => {
-            setTimeout(() => {
-              setStatus("Erreur lors de l'envoi de l'email.");
-            }, 500);
-          }
-        );
-    }else{
-      setStatus("Tous les champs sont obligatoires.")
+
+    if (!(formData.name && formData.email && formData.subject && formData.message)) {
+      setStatus("Tous les champs sont obligatoires.");
+      return;
     }
 
+    setLoading(true);
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_KEY,
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          from_name: "Site Promabio",
+        }),
+      });
+      const result = await response.json();
+
+      if (result.success) {
+        setStatus("Message envoyé avec succès !");
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        setStatus("Erreur lors de l'envoi de l'email.");
+      }
+    } catch (error) {
+      setStatus("Erreur lors de l'envoi de l'email.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -68,7 +79,7 @@ const Footer = () => {
         {/* Contact */}
         <div className='contact'>
           <h2 className='foot-title'>Contact</h2>
-          <p><FontAwesomeIcon icon={faEnvelope} />  romainalbert@hotmail.fr </p>
+          <p><FontAwesomeIcon icon={faEnvelope} />  madagascarinstituteoftech@gmail.com </p>
           <p><FontAwesomeIcon icon={faPhone} /> +261 32 05 160 42</p>
           <p><FontAwesomeIcon icon={faLocationDot} /> Secteur n°10 Maherifody,
             206 Antalaha, Madagascar</p>
@@ -90,8 +101,8 @@ const Footer = () => {
             <input className='px-2 py-1 bg-white/80' onChange={handleChange} value={formData.subject} type="text" name="subject" placeholder={t('footer.form.placeholder.subject')} />
             <textarea name="message" className='resize-none px-2 py-1' value={formData.message} onChange={handleChange} id="" placeholder={t('footer.form.placeholder.message')}></textarea>
             <div className='text-right'>
-              <button className='btn-primary' type='submit'>
-                Envoyer
+              <button className='btn-primary' type='submit' disabled={loading}>
+                {loading ? "Envoi..." : "Envoyer"}
               </button>
             </div>
           </form>
